@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MyFootprints")(type "KiCad")(uri "/Users/andrewliu/Desktop/MyFootprints.pretty")(options "")(descr ""))
+)

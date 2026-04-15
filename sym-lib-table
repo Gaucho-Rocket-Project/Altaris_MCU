@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Buck")(type "KiCad")(uri "/Users/andrewliu/Desktop/MySymbols.pretty/2026-04-12_21-47-35.kicad_sym")(options "")(descr ""))
+  (lib (name "LED")(type "KiCad")(uri "/Users/andrewliu/Desktop/MySymbols.pretty/2026-04-15_05-08-54.kicad_sym")(options "")(descr ""))
+)
