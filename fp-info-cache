@@ -1,4 +1,4 @@
-27112243120279996
+27117571890633920
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74241,6 +74241,27 @@ TPS62827DMQT
 0
 6
 6
+MyFootprints
+IND_XFL4015_COC
+
+XFL4015-471MEC 
+0
+2
+2
+MyFootprints
+IND_XFL4015_COC-L
+
+XFL4015-471MEC 
+0
+2
+2
+MyFootprints
+IND_XFL4015_COC-M
+
+XFL4015-471MEC 
+0
+2
+2
 MyFootprints
 LED_LTST-C190_LTO
 
