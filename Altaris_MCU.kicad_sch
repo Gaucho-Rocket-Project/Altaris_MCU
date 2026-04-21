@@ -7052,131 +7052,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "2SK3018"
 		(exclude_from_sim no)
@@ -7298,6 +7173,16 @@
 		)
 		(uuid "9b0eacb6-ac7a-4b34-95d5-8ac4bf287b6a")
 	)
+	(text "For common1, Warning: global label not connected anywhere else in the schematic"
+		(exclude_from_sim no)
+		(at 169.926 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9ddcdb4-35b5-428a-b09e-fb9e04e4d7e3")
+	)
 	(text "Step-down Converter"
 		(exclude_from_sim no)
 		(at 149.86 218.186 0)
@@ -7307,6 +7192,16 @@
 			)
 		)
 		(uuid "ad111371-8656-487d-9c5e-8e5cff222d1a")
+	)
+	(text "Warning: both ADC_IN2 and SIGNAL2 are attached to the same items"
+		(exclude_from_sim no)
+		(at 179.07 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2969464-a431-4be0-9964-701e86390396")
 	)
 	(text "WILL PROBOLY GET RID OF THIS LDO\n					   	    "
 		(exclude_from_sim no)
@@ -7355,12 +7250,6 @@
 		(uuid "0426ce65-82c7-4839-b9c3-965c3d5bdf6e")
 	)
 	(junction
-		(at 35.56 346.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0453f19a-840d-4f2c-8860-8ffa8251bc2a")
-	)
-	(junction
 		(at 78.74 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7395,6 +7284,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1de74bcf-b73e-49e2-9257-40b7e9cc3bdd")
+	)
+	(junction
+		(at 73.66 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e9529aa-3c16-44b3-9fca-281cfbec571f")
 	)
 	(junction
 		(at 120.65 233.68)
@@ -7511,6 +7406,12 @@
 		(uuid "73f34f1d-104a-43d9-80f7-718dfda04cdc")
 	)
 	(junction
+		(at 54.61 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73f4ba25-7539-4900-98e7-94faf6625aef")
+	)
+	(junction
 		(at 542.29 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7551,12 +7452,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9bfa06a-1e8c-4ac2-a5ce-56d61725c75c")
-	)
-	(junction
-		(at 50.8 302.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa54a428-e2cc-4acc-9505-d85740e7223c")
 	)
 	(junction
 		(at 350.52 44.45)
@@ -7659,12 +7554,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eda7547d-cbb3-4f41-bbba-3d1ba92fed14")
-	)
-	(junction
-		(at 50.8 304.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eee15b25-dd87-482a-a446-978f91d1ca3b")
 	)
 	(junction
 		(at 186.69 233.68)
@@ -7954,16 +7843,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 302.26) (xy 50.8 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "193c1df9-e588-478f-8fb2-893eef774d84")
-	)
-	(wire
-		(pts
 			(xy 176.53 160.02) (xy 179.07 160.02)
 		)
 		(stroke
@@ -8124,6 +8003,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 304.8) (xy 50.8 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360059f7-563b-49d9-989c-ebf6dcfc9d51")
+	)
+	(wire
+		(pts
 			(xy 170.18 243.84) (xy 170.18 247.65)
 		)
 		(stroke
@@ -8181,6 +8070,16 @@
 			(type default)
 		)
 		(uuid "3af46ca6-9d7a-4dc8-a972-b52969f43440")
+	)
+	(wire
+		(pts
+			(xy 168.91 233.68) (xy 167.64 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1b1186-8d6b-4361-b309-f900ee8a683a")
 	)
 	(wire
 		(pts
@@ -8984,16 +8883,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 300.99) (xy 50.8 302.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a835a79d-becf-4b3a-a95a-f19a679a4e95")
-	)
-	(wire
-		(pts
 			(xy 474.98 114.3) (xy 474.98 130.81)
 		)
 		(stroke
@@ -9004,7 +8893,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 233.68) (xy 86.36 233.68)
+			(xy 46.99 233.68) (xy 73.66 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9164,7 +9053,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 304.8) (xy 50.8 304.8)
+			(xy 57.15 304.8) (xy 54.61 304.8)
 		)
 		(stroke
 			(width 0)
@@ -9281,6 +9170,16 @@
 			(type default)
 		)
 		(uuid "c79ccf0c-0522-4502-9d59-c52248802fff")
+	)
+	(wire
+		(pts
+			(xy 73.66 233.68) (xy 86.36 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8705404-5161-40a7-aa41-77412a949d5a")
 	)
 	(wire
 		(pts
@@ -9404,7 +9303,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 233.68) (xy 177.8 233.68)
+			(xy 176.53 233.68) (xy 177.8 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12681,7 +12580,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 50.8 302.26 270)
+		(at 54.61 304.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12690,7 +12589,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d55dbd3-899b-4d38-a9db-c7c29ae62f97")
 		(property "Reference" "#FLG07"
-			(at 52.705 302.26 0)
+			(at 54.61 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12699,7 +12598,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 55.88 302.26 0)
+			(at 54.61 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12708,7 +12607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 302.26 0)
+			(at 54.61 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12717,7 +12616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 302.26 0)
+			(at 54.61 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12726,7 +12625,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 50.8 302.26 0)
+			(at 54.61 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13937,6 +13836,73 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 73.66 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "254b4fbb-f5f5-4c02-8bf3-17883474aa14")
+		(property "Reference" "#FLG02"
+			(at 73.66 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 73.66 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4dd6282-541c-4bba-8c4a-5dddbd2683b4")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -17730,73 +17696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 35.56 346.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77d4c406-00d0-43d7-9a08-f1bdbfd69443")
-		(property "Reference" "#FLG01"
-			(at 37.465 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 40.64 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd8690ce-f2b7-49e6-af32-b628de34867a")
-		)
-		(instances
-			(project "Altaris_MCU"
-				(path "/21889916-6808-460c-a148-21d1f170ea7e"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 377.19 36.83 180)
 		(unit 1)
@@ -20774,72 +20673,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 50.8 300.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3b588ae-12ba-405f-a075-5650d9b9707f")
-		(property "Reference" "#PWR077"
-			(at 50.8 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VBUS"
-			(at 50.8 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 50.8 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36f3874b-c132-4b1f-8eee-edae22d2f9be")
-		)
-		(instances
-			(project "Altaris_MCU"
-				(path "/21889916-6808-460c-a148-21d1f170ea7e"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 163.83 0)
 		(unit 1)
@@ -23488,7 +23321,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 171.45 233.68 90)
+		(at 172.72 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23497,7 +23330,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebbeaf85-1cef-49bf-9985-90b6bc333f3b")
 		(property "Reference" "L1"
-			(at 171.45 228.6 90)
+			(at 172.72 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23505,7 +23338,7 @@
 			)
 		)
 		(property "Value" "0.47u"
-			(at 171.45 231.14 90)
+			(at 172.72 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23513,7 +23346,7 @@
 			)
 		)
 		(property "Footprint" "MyFootprints:IND_XFL4015_COC"
-			(at 171.45 233.68 0)
+			(at 172.72 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23522,7 +23355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 233.68 0)
+			(at 172.72 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23531,7 +23364,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 171.45 233.68 0)
+			(at 172.72 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
