@@ -1222,6 +1222,301 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Micro_SD_Card"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J15"
+				(at 0.635 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B0DRWPJ1T5"
+				(at 0.635 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro SD Card Socket"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Micro_SD_Card_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
+						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -9.525)
+					(end -5.08 -10.795)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_1_1"
+				(pin power_in line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "3v3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -7163,6 +7458,16 @@
 		)
 		(uuid "5c606e61-931d-4be4-a459-9029c3bff934")
 	)
+	(text "Micro SD Card Module\n"
+		(exclude_from_sim no)
+		(at 340.868 137.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "771078c6-0b35-4bb2-bfbb-7556e16527a9")
+	)
 	(text "Thermocouple-to-Digital Converters:\n"
 		(exclude_from_sim no)
 		(at 44.704 141.478 0)
@@ -7202,6 +7507,16 @@
 			)
 		)
 		(uuid "c2969464-a431-4be0-9964-701e86390396")
+	)
+	(text "WILL PROBS GET RID OF THIS PORT\n					   	    "
+		(exclude_from_sim no)
+		(at 66.548 292.862 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "c547c06f-84ab-42e2-a665-451a1df844b4")
 	)
 	(text "WILL PROBOLY GET RID OF THIS LDO\n					   	    "
 		(exclude_from_sim no)
@@ -7632,10 +7947,6 @@
 	(no_connect
 		(at 535.94 120.65)
 		(uuid "7d596b79-2325-40d6-9434-7f2a443cf229")
-	)
-	(no_connect
-		(at 26.67 74.93)
-		(uuid "9272cad9-47cd-46bd-aeff-c1e14d159bca")
 	)
 	(no_connect
 		(at 543.56 66.04)
@@ -8767,6 +9078,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 165.1) (xy 313.69 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bffa8a-f23b-4fb7-b446-5e29047ab423")
+	)
+	(wire
+		(pts
 			(xy 356.87 81.28) (xy 355.6 81.28)
 		)
 		(stroke
@@ -9197,6 +9518,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 152.4) (xy 317.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14f74f3-7645-42ca-8b90-fe0744456750")
+	)
+	(wire
+		(pts
 			(xy 480.06 138.43) (xy 469.9 138.43)
 		)
 		(stroke
@@ -9567,6 +9898,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 165.1) (xy 313.69 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d00c55-5f8a-4ad1-9721-f88b58fc7f3f")
+	)
+	(wire
+		(pts
 			(xy 55.88 29.21) (xy 63.5 29.21)
 		)
 		(stroke
@@ -9697,6 +10038,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 144.78) (xy 314.96 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca4a09b-d7ed-40d1-aa9b-a939f83f6487")
+	)
+	(wire
+		(pts
 			(xy 210.82 160.02) (xy 210.82 162.56)
 		)
 		(stroke
@@ -9718,6 +10069,28 @@
 		(uuid "0023fe88-350e-495f-a708-efe2eaacd7ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.6019 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 317.5 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04354a02-1992-4c98-9132-d2d7edfbd843")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.9186 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,6 +10756,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 317.5 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e81efd1-8d3f-4884-b3fb-4687405596e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.9467 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11280,6 +11675,28 @@
 		(uuid "847aa494-49fd-4944-832d-98fe886aa2c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V_b"
+		(shape input)
+		(at 314.96 144.78 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84aa2546-3555-4b15-8b84-e6b0386f2fa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 133.9934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,6 +12652,28 @@
 			)
 		)
 	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 26.67 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cedcfc93-84db-4ca2-bba9-06e4f1f17747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.7582 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "T4+"
 		(shape input)
 		(at 172.72 130.81 180)
@@ -12501,6 +12940,28 @@
 	)
 	(global_label "MISO"
 		(shape input)
+		(at 317.5 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e63df189-ebb8-4adf-a79f-82c154de077e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.6248 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
 		(at 88.9 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12517,6 +12978,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 317.5 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea277d43-e718-4207-892c-0fdb1de9fa89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.5882 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -22427,6 +22910,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 313.69 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfaaf7ec-c27c-41a6-9c38-1dbf21c21f73")
+		(property "Reference" "#PWR055"
+			(at 313.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 313.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "248c23f7-ef6e-4a0d-b0ca-aa0623c42411")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 76.2 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23160,6 +23709,86 @@
 			(project "datalogger"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card")
+		(at 340.36 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c97c9c87-17e2-4a82-9abc-f8243b3493cc")
+		(property "Reference" "J15"
+			(at 340.995 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B0DRWPJ1T5"
+			(at 340.995 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.cirkitdesigner.com/component/4a2ca728-57a2-4472-a8f1-ba3b1644daf7/sd-card-reader"
+			(at 340.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro SD Card Socket"
+			(at 340.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4e7c3bbe-aeca-44e4-b03f-1df084bd6a87")
+		)
+		(pin "2"
+			(uuid "71e8cf26-be01-4752-832b-10eed2bd9024")
+		)
+		(pin "4"
+			(uuid "9c9dfbf7-1882-4aa9-97c5-2247bd2c59cf")
+		)
+		(pin "1"
+			(uuid "f630d377-caee-4fe7-9842-a16063210993")
+		)
+		(pin "5"
+			(uuid "fd6f06fd-011b-4323-8737-1831fbdf8be9")
+		)
+		(pin "6"
+			(uuid "8b8e0e7d-0752-4ba8-9cf0-33548c5e4333")
+		)
+		(instances
+			(project ""
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "J15")
 					(unit 1)
 				)
 			)
