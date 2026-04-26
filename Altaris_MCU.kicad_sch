@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U4"
 				(at 27.94 10.16 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "QFN24_3X3X0P9_IVS"
+			(property "Footprint" "MyFootprints:QFN24_3X3X0P9_IVS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "ICM-20948"
+			(property "Datasheet" "https://d17t6iyxenbwp1.cloudfront.net/s3fs-public/2026-03/ds-000189-icm-20948-datasheet.pdf?VersionId=DDZ6UQd2jbFGUCqi1PY4w_nR5jWpqKVN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,6 +55,31 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C726001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_locked" ""
@@ -420,24 +445,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 55.88 -10.16 180)
-					(length 7.62)
-					(name "RESV_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 55.88 -12.7 180)
 					(length 7.62)
@@ -449,24 +456,6 @@
 						)
 					)
 					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 55.88 -15.24 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -557,6 +546,44 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICM-20948_1_1"
+				(pin passive line
+					(at 55.88 -10.16 180)
+					(length 7.62)
+					(name "RESV_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 55.88 -15.24 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1212,301 +1239,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Micro_SD_Card"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J15"
-				(at 0.635 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "B0DRWPJ1T5"
-				(at 0.635 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 29.21 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Micro SD Card Socket"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector SD microsd"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "microSD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Micro_SD_Card_0_1"
-				(polyline
-					(pts
-						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
-						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -7.62 8.255)
-					(end -5.08 6.985)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 5.715)
-					(end -5.08 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 3.175)
-					(end -5.08 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 0.635)
-					(end -5.08 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.905)
-					(end -5.08 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -4.445)
-					(end -5.08 -5.715)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -6.985)
-					(end -5.08 -8.255)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -9.525)
-					(end -5.08 -10.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Micro_SD_Card_1_1"
-				(pin power_in line
-					(at -22.86 7.62 0)
-					(length 3.81)
-					(name "3v3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 5.08 0)
-					(length 3.81)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 2.54 0)
-					(length 3.81)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 0 0)
-					(length 3.81)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -2.54 0)
-					(length 3.81)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 -5.08 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2394,6 +2126,264 @@
 						)
 					)
 					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6929,6 +6919,239 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Temperature:MAX31855TASA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MAX31855TASA"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
+				(at 2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cold Junction T-type Thermocouple Interface, SPI, SOIC-8"
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Maxim"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX31855TASA_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MAX31855TASA_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "T+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "T-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_MEC_5E"
 			(pin_names
 				(offset 1.016)
@@ -7460,7 +7683,7 @@
 	)
 	(text "Micro SD Card Module\n"
 		(exclude_from_sim no)
-		(at 340.868 137.668 0)
+		(at 330.962 145.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7625,6 +7848,18 @@
 		(uuid "2bd933ab-f8d5-4993-9682-6be6f334c29e")
 	)
 	(junction
+		(at 168.91 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c187e4e-94eb-4f70-b5ae-f16edba35d26")
+	)
+	(junction
+		(at 356.87 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31dde6df-66fb-48ce-9fba-ed2697d3d137")
+	)
+	(junction
 		(at 264.16 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7743,6 +7978,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a4dab68-db65-42aa-8362-82cd00e54ba6")
+	)
+	(junction
+		(at 353.06 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90cb7d60-e585-46bd-93da-20f4ed1a54ee")
 	)
 	(junction
 		(at 445.77 46.99)
@@ -8295,6 +8536,16 @@
 			(type default)
 		)
 		(uuid "2b9964d3-405e-4b1e-a1e6-c9baabe578d5")
+	)
+	(wire
+		(pts
+			(xy 317.5 154.94) (xy 321.31 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3a61fe-b5bf-4fc3-b583-1af2ae2fa47f")
 	)
 	(wire
 		(pts
@@ -8918,16 +9169,6 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 128.27) (xy 539.75 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb29975-68a0-494a-96f7-61da37dba468")
-	)
-	(wire
-		(pts
 			(xy 186.69 241.3) (xy 186.69 242.57)
 		)
 		(stroke
@@ -8945,6 +9186,16 @@
 			(type default)
 		)
 		(uuid "72e643b5-e411-47dc-900e-58ef25858d87")
+	)
+	(wire
+		(pts
+			(xy 535.94 128.27) (xy 539.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741c9d96-c532-458e-9723-b4c09a22614c")
 	)
 	(wire
 		(pts
@@ -9298,6 +9549,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 162.56) (xy 321.31 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae171420-ce0c-4429-8c95-f816a34efcac")
+	)
+	(wire
+		(pts
 			(xy 46.99 233.68) (xy 73.66 233.68)
 		)
 		(stroke
@@ -9518,7 +9779,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 152.4) (xy 317.5 152.4)
+			(xy 314.96 152.4) (xy 321.31 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9818,6 +10079,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 160.02) (xy 321.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78a65b5-66c1-4778-91cb-e185a670780d")
+	)
+	(wire
+		(pts
 			(xy 46.99 241.3) (xy 49.53 241.3)
 		)
 		(stroke
@@ -9855,6 +10126,16 @@
 			(type default)
 		)
 		(uuid "eb46ee87-6f04-4924-9b6f-05f655e5ac07")
+	)
+	(wire
+		(pts
+			(xy 317.5 157.48) (xy 321.31 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb586c8a-07e3-412b-8758-9623bc26dfa8")
 	)
 	(wire
 		(pts
@@ -9898,7 +10179,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 165.1) (xy 313.69 165.1)
+			(xy 313.69 165.1) (xy 321.31 165.1)
 		)
 		(stroke
 			(width 0)
@@ -13291,6 +13572,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 326.39 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05db00bb-2306-4652-a98d-78eaf724387d")
+		(property "Reference" "J16"
+			(at 328.93 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 328.93 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 326.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 326.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ec81f8c-b858-4856-8e1f-10ac86fe53da")
+		)
+		(pin "2"
+			(uuid "a8fca37d-d165-4a18-9ac4-223a73ed56ee")
+		)
+		(pin "3"
+			(uuid "b244079a-2923-40c2-81b4-5a7cc7b6f088")
+		)
+		(pin "4"
+			(uuid "b530a681-407c-43e4-91c6-1f4e9bbdb2a7")
+		)
+		(pin "5"
+			(uuid "bd2c2f1f-7ac3-45a6-b15e-74cff29a6bda")
+		)
+		(pin "6"
+			(uuid "51858302-087a-4cf0-a101-766b8d4d8117")
+		)
+		(instances
+			(project ""
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 303.53 270)
 		(unit 1)
@@ -15020,98 +15383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 264.16 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "270417e0-3798-477d-85c1-002adbc203fa")
-		(property "Reference" "U16"
-			(at 266.3033 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX31855KASA"
-			(at 266.3033 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 266.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 266.7 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cold Junction K-type Thermocouple Interface, SPI, SOIC-8"
-			(at 266.7 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "05857c1e-6044-44fa-980d-b0718414ea12")
-		)
-		(pin "4"
-			(uuid "5436de90-7e80-466c-8c3a-b0282941eefa")
-		)
-		(pin "8"
-			(uuid "476cee74-52e7-4808-a341-3fa2973587a5")
-		)
-		(pin "2"
-			(uuid "92e9f70d-c1a4-45dd-91ca-0ceabf8295c7")
-		)
-		(pin "7"
-			(uuid "b7de341a-2589-4bcb-b8e5-2d44d40444f4")
-		)
-		(pin "1"
-			(uuid "e3bee914-56cc-46c0-9e46-02cb80a2d026")
-		)
-		(pin "6"
-			(uuid "86647afa-8a7a-4080-b3e2-e300b602b2d2")
-		)
-		(pin "5"
-			(uuid "f17258dc-54a4-434b-9e01-8bb84052525d")
-		)
-		(instances
-			(project "Altaris_MCU"
-				(path "/21889916-6808-460c-a148-21d1f170ea7e"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 518.16 71.12 270)
 		(unit 1)
@@ -15171,98 +15442,6 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 223.52 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29d3a9df-8023-4cc2-b857-cfcc932ebac4")
-		(property "Reference" "U14"
-			(at 225.6633 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX31855KASA"
-			(at 225.6633 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 226.06 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 226.06 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cold Junction K-type Thermocouple Interface, SPI, SOIC-8"
-			(at 226.06 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "de87ee86-7d83-40ab-85ee-d33fa7c32042")
-		)
-		(pin "4"
-			(uuid "ea599428-ba49-4549-96f0-1029f371bca1")
-		)
-		(pin "8"
-			(uuid "bd14fdb3-ac12-4e53-a2c9-791bcbc217ac")
-		)
-		(pin "2"
-			(uuid "92b093ea-0148-48d8-9742-9748f5686927")
-		)
-		(pin "7"
-			(uuid "007a7054-cacd-4c5d-8b69-6cbf5f3df721")
-		)
-		(pin "1"
-			(uuid "088952f7-d7a2-47c7-992c-e8df5cb4002c")
-		)
-		(pin "6"
-			(uuid "555a4e82-33f5-4ecf-a1f9-eb0ca3c588d8")
-		)
-		(pin "5"
-			(uuid "2d03c903-54fb-47a4-97f8-25fe70225ef6")
-		)
-		(instances
-			(project "Altaris_MCU"
-				(path "/21889916-6808-460c-a148-21d1f170ea7e"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -15395,6 +15574,73 @@
 			(project "datalogger"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 168.91 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc7d678-91b9-4d2c-873f-39da888b1b5e")
+		(property "Reference" "#FLG04"
+			(at 168.91 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 168.91 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 168.91 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3936c5c-0a94-4dfc-b23f-aa60fdd24199")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -18421,6 +18667,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Temperature:MAX31855TASA")
+		(at 223.52 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f5e9e05-33de-403e-b0dc-206f110239f6")
+		(property "Reference" "U18"
+			(at 225.6633 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31855TASA"
+			(at 225.6633 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 226.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
+			(at 226.06 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cold Junction T-type Thermocouple Interface, SPI, SOIC-8"
+			(at 226.06 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "424070ad-f9c2-4f3f-ac56-2d060a76dbc7")
+		)
+		(pin "6"
+			(uuid "34fbb543-ee1d-445f-9f97-bfa93d24a1f4")
+		)
+		(pin "4"
+			(uuid "a0c5859c-b877-4588-b82b-5ffff676cc89")
+		)
+		(pin "5"
+			(uuid "208491da-baa3-4cdf-964c-993b5900d71c")
+		)
+		(pin "8"
+			(uuid "cc0f27a1-0d03-4228-8287-d01b0a8e276e")
+		)
+		(pin "2"
+			(uuid "ed074406-b4a9-488b-960a-cf5b3d332de6")
+		)
+		(pin "3"
+			(uuid "5be1ab34-5ec9-4762-a1ac-00ef0e9e1ca9")
+		)
+		(pin "7"
+			(uuid "13a9884b-1bb9-43af-86ed-3890546d6249")
+		)
+		(instances
+			(project ""
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 104.14 0)
 		(mirror y)
@@ -18967,98 +19305,6 @@
 			(project "datalogger"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 179.07 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "725006ca-a533-43a5-8b04-8c4cc6be3f73")
-		(property "Reference" "U11"
-			(at 181.2133 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX31855KASA"
-			(at 181.2133 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 181.61 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 181.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cold Junction K-type Thermocouple Interface, SPI, SOIC-8"
-			(at 181.61 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1951715b-e44b-4904-9ce7-aa806ddac487")
-		)
-		(pin "4"
-			(uuid "cd34101d-0c8f-4994-ae13-ed32be204ec4")
-		)
-		(pin "8"
-			(uuid "47211b10-7a41-403c-baa8-1a8b71c74236")
-		)
-		(pin "2"
-			(uuid "046bd052-ce54-4aa7-a651-e1335b9a4ada")
-		)
-		(pin "7"
-			(uuid "b6b37f4d-a939-448f-9531-2d02dd9ac917")
-		)
-		(pin "1"
-			(uuid "1e725e14-bfa4-4108-b45f-a8908d14b9fb")
-		)
-		(pin "6"
-			(uuid "8e27e210-8fae-4f07-b3df-a3453bee1632")
-		)
-		(pin "5"
-			(uuid "180a95bc-928e-4c85-8db5-ccdbf6bad1dc")
-		)
-		(instances
-			(project "Altaris_MCU"
-				(path "/21889916-6808-460c-a148-21d1f170ea7e"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -19776,6 +20022,98 @@
 			(project "datalogger"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MAX31855TASA")
+		(at 179.07 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "850a1e39-713c-4ff3-aa8a-4d3ddfe3898d")
+		(property "Reference" "U17"
+			(at 181.2133 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31855TASA"
+			(at 181.2133 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 181.61 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
+			(at 181.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cold Junction T-type Thermocouple Interface, SPI, SOIC-8"
+			(at 181.61 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2cc8c0ad-8d2c-41ba-aec5-71cb7cb66663")
+		)
+		(pin "1"
+			(uuid "1082e295-c5af-4571-9b8f-ec14ec5fbaac")
+		)
+		(pin "8"
+			(uuid "0d19f655-289a-4d46-947e-b8eafc6aa8ed")
+		)
+		(pin "4"
+			(uuid "b56bf3eb-d95f-456a-878e-365163b31639")
+		)
+		(pin "3"
+			(uuid "b8f114ba-4529-4f3c-9155-e8dde18e020c")
+		)
+		(pin "2"
+			(uuid "b8ea5086-a589-486f-8177-31bfe4295a47")
+		)
+		(pin "5"
+			(uuid "905321b8-b2e6-4fed-9fe9-085f68a1427f")
+		)
+		(pin "6"
+			(uuid "c0bccde7-75ba-4c4a-8613-a7624ee53067")
+		)
+		(instances
+			(project ""
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -22750,6 +23088,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 353.06 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b867b3e0-5af8-4c7e-8a78-53e5d7b1b5e2")
+		(property "Reference" "#FLG03"
+			(at 353.06 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 353.06 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 353.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f979512-b9ba-4cc7-a43e-59e6c2f023b9")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 364.49 88.9 0)
 		(unit 1)
@@ -23309,6 +23714,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 356.87 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c465ebb1-fada-4e1e-a437-3e521799727c")
+		(property "Reference" "#FLG01"
+			(at 356.87 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 356.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 356.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd1bfbb4-2ee1-4936-ac11-f191261d41e2")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 242.57 99.06 180)
 		(unit 1)
@@ -23709,86 +24181,6 @@
 			(project "datalogger"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Micro_SD_Card")
-		(at 340.36 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c97c9c87-17e2-4a82-9abc-f8243b3493cc")
-		(property "Reference" "J15"
-			(at 340.995 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B0DRWPJ1T5"
-			(at 340.995 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.cirkitdesigner.com/component/4a2ca728-57a2-4472-a8f1-ba3b1644daf7/sd-card-reader"
-			(at 340.36 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro SD Card Socket"
-			(at 340.36 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4e7c3bbe-aeca-44e4-b03f-1df084bd6a87")
-		)
-		(pin "2"
-			(uuid "71e8cf26-be01-4752-832b-10eed2bd9024")
-		)
-		(pin "4"
-			(uuid "9c9dfbf7-1882-4aa9-97c5-2247bd2c59cf")
-		)
-		(pin "1"
-			(uuid "f630d377-caee-4fe7-9842-a16063210993")
-		)
-		(pin "5"
-			(uuid "fd6f06fd-011b-4323-8737-1831fbdf8be9")
-		)
-		(pin "6"
-			(uuid "8b8e0e7d-0752-4ba8-9cf0-33548c5e4333")
-		)
-		(instances
-			(project ""
-				(path "/21889916-6808-460c-a148-21d1f170ea7e"
-					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -24795,6 +25187,98 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MAX31855TASA")
+		(at 264.16 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc3acea2-777d-4a39-9983-d9beae5bbd23")
+		(property "Reference" "U11"
+			(at 266.3033 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31855TASA"
+			(at 266.3033 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 266.7 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
+			(at 266.7 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cold Junction T-type Thermocouple Interface, SPI, SOIC-8"
+			(at 266.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6d7d195-d41c-43ad-b416-b17be8a303c8")
+		)
+		(pin "6"
+			(uuid "777f3f13-209d-4eff-b3fa-5cff276c6ed1")
+		)
+		(pin "4"
+			(uuid "c64409ce-8a07-4e09-b15d-b70b991e42cf")
+		)
+		(pin "5"
+			(uuid "bd3a3217-e918-4dc3-b77f-320a08c33826")
+		)
+		(pin "8"
+			(uuid "01a86b4c-6d1f-4b53-b13d-ed74d42ff872")
+		)
+		(pin "2"
+			(uuid "3f060b59-db97-40bb-8aa2-ed9a82f9023d")
+		)
+		(pin "3"
+			(uuid "7cadadb8-843f-4bc2-ba78-7e5953415c30")
+		)
+		(pin "7"
+			(uuid "bc3b971d-7b61-4f34-b7ed-2540a75b55ef")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "U11")
 					(unit 1)
 				)
 			)
