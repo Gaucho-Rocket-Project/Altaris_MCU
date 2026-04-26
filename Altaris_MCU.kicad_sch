@@ -7681,6 +7681,16 @@
 		)
 		(uuid "5c606e61-931d-4be4-a459-9029c3bff934")
 	)
+	(text "These have been changed to T-type in the schematic only, changes need to be updated in layout\n"
+		(exclude_from_sim no)
+		(at 199.136 140.462 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a001d12-4980-4dd3-aaed-51d65c7e3bfb")
+	)
 	(text "Micro SD Card Module\n"
 		(exclude_from_sim no)
 		(at 330.962 145.796 0)
@@ -7701,16 +7711,6 @@
 		)
 		(uuid "9b0eacb6-ac7a-4b34-95d5-8ac4bf287b6a")
 	)
-	(text "For common1, Warning: global label not connected anywhere else in the schematic"
-		(exclude_from_sim no)
-		(at 169.926 106.426 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a9ddcdb4-35b5-428a-b09e-fb9e04e4d7e3")
-	)
 	(text "Step-down Converter"
 		(exclude_from_sim no)
 		(at 149.86 218.186 0)
@@ -7720,16 +7720,6 @@
 			)
 		)
 		(uuid "ad111371-8656-487d-9c5e-8e5cff222d1a")
-	)
-	(text "Warning: both ADC_IN2 and SIGNAL2 are attached to the same items"
-		(exclude_from_sim no)
-		(at 179.07 61.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c2969464-a431-4be0-9964-701e86390396")
 	)
 	(text "WILL PROBS GET RID OF THIS PORT\n					   	    "
 		(exclude_from_sim no)
