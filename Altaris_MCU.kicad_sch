@@ -6183,6 +6183,12 @@
 		(uuid "7a4dab68-db65-42aa-8362-82cd00e54ba6")
 	)
 	(junction
+		(at 397.51 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82a4adc0-2eb7-4631-b07a-6ab98c2c6ed9")
+	)
+	(junction
 		(at 445.77 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23572,6 +23578,73 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 397.51 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef6e9855-e803-467d-8ef3-20aefb4d9af0")
+		(property "Reference" "#FLG07"
+			(at 397.51 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 397.51 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 397.51 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 397.51 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8b52ee2-8c22-4ce2-af22-8fd2c575495d")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
