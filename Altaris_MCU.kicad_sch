@@ -8456,6 +8456,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 177.8) (xy 152.4 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01abde10-e412-41c9-982b-20bfa91f716a")
+	)
+	(wire
+		(pts
 			(xy 254 160.02) (xy 251.46 160.02)
 		)
 		(stroke
@@ -8983,6 +8993,16 @@
 			(type default)
 		)
 		(uuid "403e1784-8985-4762-adad-fff38fe1020e")
+	)
+	(wire
+		(pts
+			(xy 152.4 156.21) (xy 152.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4160c91e-04ee-40b7-a83f-fafa3b2c65f5")
 	)
 	(wire
 		(pts
@@ -9713,6 +9733,16 @@
 			(type default)
 		)
 		(uuid "9b05d4b2-aad1-4ebc-92a9-152d5d8f5121")
+	)
+	(wire
+		(pts
+			(xy 152.4 163.83) (xy 152.4 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3bfbe0-f4ca-499e-9252-d55f6c91fb95")
 	)
 	(wire
 		(pts
@@ -12228,6 +12258,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V_b"
+		(shape input)
+		(at 152.4 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81defeba-efd9-4d58-9e3e-df79a6063394")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 145.4234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14963,7 +15015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 298.45 170.18 0)
 			(effects
 				(font
@@ -17584,6 +17636,151 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 152.4 177.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "464d0b6a-13a3-4f39-a2ea-4b45eb24c78c")
+		(property "Reference" "#PWR070"
+			(at 152.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22e88f1c-1280-4b1a-8860-bae8c7ecfaff")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "474f8f0e-cba7-4a47-893b-776e2bfc35a8")
+		(property "Reference" "D3"
+			(at 156.21 171.7674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 156.21 174.3074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 152.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 152.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "305006e7-2b8a-4c52-9f79-f58139bef6c9")
+		)
+		(pin "2"
+			(uuid "d25162b7-3b65-4524-bd3c-05f215e30303")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 86.36 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20069,7 +20266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 300.99 161.2899 0)
 			(effects
 				(font
@@ -20078,7 +20275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 298.45 160.02 0)
 			(effects
 				(font
@@ -23968,6 +24165,76 @@
 			(project "datalogger"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 152.4 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba967041-3437-4f79-bb3b-700cbcff831f")
+		(property "Reference" "R17"
+			(at 154.94 160.0199 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 154.94 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88a5127e-ec24-4c57-aadb-7f3063a6d587")
+		)
+		(pin "1"
+			(uuid "5d7ea1b0-97c1-469b-ae9e-722adf5b3e07")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "R17")
 					(unit 1)
 				)
 			)
