@@ -7218,6 +7218,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 228.6) (xy 266.7 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6a205e-d2ae-4d73-b529-d34ddb9cae62")
+	)
+	(wire
+		(pts
 			(xy 261.62 160.02) (xy 264.16 160.02)
 		)
 		(stroke
@@ -7338,6 +7348,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 220.98) (xy 266.7 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3cdc0b-ac31-4eca-95b3-3272750935f8")
+	)
+	(wire
+		(pts
 			(xy 186.69 241.3) (xy 186.69 242.57)
 		)
 		(stroke
@@ -7405,6 +7425,16 @@
 			(type default)
 		)
 		(uuid "7a400d37-3dbf-4f0c-8331-1d6563689ca5")
+	)
+	(wire
+		(pts
+			(xy 266.7 242.57) (xy 266.7 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a51cbcf-82e2-4d01-8484-12e233f381b2")
 	)
 	(wire
 		(pts
@@ -10210,6 +10240,28 @@
 			)
 		)
 	)
+	(global_label "+3.3V_b"
+		(shape input)
+		(at 266.7 220.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2766504-6fa4-4a21-84f2-b1f7d8780a41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.7 210.1934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX_CS3"
 		(shape input)
 		(at 134.62 179.07 0)
@@ -12574,6 +12626,85 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 266.7 236.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c9637e8-f720-463b-8011-cdf2249eabfa")
+		(property "Reference" "LED6"
+			(at 270.51 236.5374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C190KRKT"
+			(at 270.51 239.0774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 266.7 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 266.7 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 266.7 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84df69d7-8183-42d6-8e45-f828852aa094")
+		)
+		(pin "2"
+			(uuid "b361e4e6-7386-4713-aa8b-35265015e873")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -21320,6 +21451,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 266.7 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca7f4f16-1660-4c0c-85a3-9a48bbda42b6")
+		(property "Reference" "R21"
+			(at 269.24 224.7899 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 269.24 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 266.7 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 266.7 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e3aaf45-ff4e-43dc-b3b6-36e197fe0c3b")
+		)
+		(pin "1"
+			(uuid "77e9c57c-0f0f-4e88-b93e-a1841b3dd03e")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 311.15 57.15 270)
 		(unit 1)
@@ -23034,6 +23235,72 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 242.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e35d8c06-4675-4256-9af3-2d6303839a19")
+		(property "Reference" "#PWR058"
+			(at 266.7 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cfb5c1c-088e-4c6e-9aec-03b58bacdd06")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
