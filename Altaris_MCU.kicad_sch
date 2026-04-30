@@ -6063,7 +6063,7 @@
 		(uuid "31dde6df-66fb-48ce-9fba-ed2697d3d137")
 	)
 	(junction
-		(at 452.12 242.57)
+		(at 458.47 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "332387cf-07a9-47d7-a40f-75597c2f5810")
@@ -6081,10 +6081,16 @@
 		(uuid "3582c7de-7dc5-4ca7-898f-79826748f895")
 	)
 	(junction
-		(at 186.69 241.3)
+		(at 198.12 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "361617fa-9221-476e-88fd-3897f2f38c30")
+	)
+	(junction
+		(at 186.69 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "378e4948-38c3-4126-88da-0918c33b360c")
 	)
 	(junction
 		(at 90.17 41.91)
@@ -6102,6 +6108,12 @@
 		(at 452.12 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
+		(uuid "4092d790-0bcf-4f00-8e11-9c38e589f7d0")
+	)
+	(junction
+		(at 458.47 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
 		(uuid "4859deaf-8281-448d-b3d3-3a73b1e48bb4")
 	)
 	(junction
@@ -6109,6 +6121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49685551-c664-446d-a0ed-f2a44ce50e11")
+	)
+	(junction
+		(at 443.23 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c6cd660-b7a6-4fd9-b587-ff254a7a4d7b")
 	)
 	(junction
 		(at 127 233.68)
@@ -6195,12 +6213,6 @@
 		(uuid "927f2431-dadd-444a-a437-f70ca6ecd8b7")
 	)
 	(junction
-		(at 443.23 234.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9917eb6c-feff-4d39-91af-f3503cc97047")
-	)
-	(junction
 		(at 93.98 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6223,6 +6235,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9bfa06a-1e8c-4ac2-a5ce-56d61725c75c")
+	)
+	(junction
+		(at 448.31 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a63d27-543f-4421-a33d-8b87444cfb29")
 	)
 	(junction
 		(at 445.77 49.53)
@@ -6339,7 +6357,13 @@
 		(uuid "f2ce210c-faf8-4352-864b-534754b5ee7e")
 	)
 	(junction
-		(at 186.69 233.68)
+		(at 194.31 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9026027-9578-4a49-b6d3-dc25b1f537b5")
+	)
+	(junction
+		(at 198.12 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe2f7fe8-e54d-410f-9947-16954885464d")
@@ -6518,7 +6542,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 241.3) (xy 196.85 241.3)
+			(xy 198.12 241.3) (xy 208.28 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6548,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 234.95) (xy 462.28 234.95)
+			(xy 458.47 234.95) (xy 468.63 234.95)
 		)
 		(stroke
 			(width 0)
@@ -6808,7 +6832,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 240.03) (xy 452.12 242.57)
+			(xy 458.47 240.03) (xy 458.47 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7008,6 +7032,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 233.68) (xy 198.12 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b0a7d3-5a55-422c-a2c4-9fd48e3b7a61")
+	)
+	(wire
+		(pts
+			(xy 186.69 233.68) (xy 194.31 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c08b05-d51a-400c-823a-8a1e802ab983")
+	)
+	(wire
+		(pts
 			(xy 92.71 92.71) (xy 92.71 96.52)
 		)
 		(stroke
@@ -7025,6 +7069,16 @@
 			(type default)
 		)
 		(uuid "4732425d-c421-411c-b38e-911eb7c67986")
+	)
+	(wire
+		(pts
+			(xy 448.31 234.95) (xy 452.12 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4951fdbe-fc77-4d1f-99c0-a05b7c22fcc8")
 	)
 	(wire
 		(pts
@@ -7078,7 +7132,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 238.76) (xy 186.69 241.3)
+			(xy 198.12 238.76) (xy 198.12 241.3)
 		)
 		(stroke
 			(width 0)
@@ -7125,6 +7179,16 @@
 			(type default)
 		)
 		(uuid "51a464f6-ff8a-4639-81dd-50e0d2bcd534")
+	)
+	(wire
+		(pts
+			(xy 443.23 234.95) (xy 448.31 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e08450-8ed2-4b24-91b3-b0b197d51868")
 	)
 	(wire
 		(pts
@@ -7358,7 +7422,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 241.3) (xy 186.69 242.57)
+			(xy 198.12 241.3) (xy 198.12 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7558,7 +7622,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 242.57) (xy 462.28 242.57)
+			(xy 458.47 242.57) (xy 468.63 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7588,7 +7652,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 242.57) (xy 452.12 242.57)
+			(xy 433.07 242.57) (xy 458.47 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7695,16 +7759,6 @@
 			(type default)
 		)
 		(uuid "a45ee34e-135d-4513-aed6-c40eb0af203a")
-	)
-	(wire
-		(pts
-			(xy 441.96 234.95) (xy 443.23 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62d572e-986f-46c7-8cff-ab3c89494d91")
 	)
 	(wire
 		(pts
@@ -7868,7 +7922,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 233.68) (xy 196.85 233.68)
+			(xy 198.12 233.68) (xy 208.28 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7915,6 +7969,16 @@
 			(type default)
 		)
 		(uuid "c1786dac-8e25-436a-a0bd-0ce687307dc6")
+	)
+	(wire
+		(pts
+			(xy 452.12 234.95) (xy 458.47 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2be9e8f-f398-444c-97ee-15ffd809388a")
 	)
 	(wire
 		(pts
@@ -7998,7 +8062,7 @@
 	)
 	(wire
 		(pts
-			(xy 443.23 234.95) (xy 452.12 234.95)
+			(xy 441.96 234.95) (xy 443.23 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8218,7 +8282,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 241.3) (xy 186.69 241.3)
+			(xy 167.64 241.3) (xy 198.12 241.3)
 		)
 		(stroke
 			(width 0)
@@ -8258,7 +8322,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 242.57) (xy 452.12 243.84)
+			(xy 458.47 242.57) (xy 458.47 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8482,7 +8546,7 @@
 	)
 	(global_label "+3.3V_b"
 		(shape input)
-		(at 462.28 234.95 0)
+		(at 468.63 234.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8492,7 +8556,7 @@
 		)
 		(uuid "05cc945a-9070-49d4-a0ec-123b649da933")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 473.0666 234.95 0)
+			(at 479.4166 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9162,7 @@
 	)
 	(global_label "+3.3V_b"
 		(shape input)
-		(at 196.85 233.68 0)
+		(at 208.28 233.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9108,7 +9172,7 @@
 		)
 		(uuid "3fc1bcfc-a6d5-488c-9050-40f4c3cdca2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.6366 233.68 0)
+			(at 219.0666 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11429,6 +11493,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 443.23 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00c3230b-92d0-4c25-9a8e-3afe4e8fd823")
+		(property "Reference" "#PWR013"
+			(at 443.23 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 443.23 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 443.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 443.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeeb4ef2-761a-481c-9514-b9fd51a0c097")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 326.39 157.48 0)
 		(unit 1)
@@ -11820,6 +11950,72 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f28b59b-af9f-46f7-a101-4eb88eee1908")
+		(property "Reference" "#PWR059"
+			(at 186.69 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16cb67f4-d8ca-4173-b0c5-7434a2af5988")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -14284,121 +14480,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 443.23 231.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40e083d1-8fc2-4c7e-a2e4-4ef4e4699bb5")
-		(property "Reference" "C7"
-			(at 447.04 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "30u"
-			(at 447.04 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 442.2648 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
-			(at 443.23 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 443.23 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 443.23 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 443.23 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
-			(at 443.23 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
-			(at 443.23 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 443.23 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a7279e2-987f-47d1-88ea-c94d6a1c64de")
-		)
-		(pin "2"
-			(uuid "e642b988-583c-4d9b-a99c-19cb94c6ae38")
-		)
-		(instances
-			(project "Altaris_MCU"
-				(path "/21889916-6808-460c-a148-21d1f170ea7e"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 67.31 260.35 0)
 		(unit 1)
@@ -15394,7 +15475,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a2da7df-fe8d-47ca-abf6-3d938c605d7a")
 		(property "Reference" "C32"
 			(at 181.61 228.5999 0)
@@ -15405,7 +15485,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30u"
+		(property "Value" "10u"
 			(at 181.61 231.1399 0)
 			(effects
 				(font
@@ -17256,6 +17336,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 452.12 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79f2619c-a048-4281-9bc3-3fac71c86324")
+		(property "Reference" "#PWR065"
+			(at 452.12 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 452.12 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 452.12 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91319d98-79e7-4d36-ace2-d71397b7c527")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 205.74 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17321,8 +17467,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 186.69 229.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a5bef15-8a58-4fd5-ad11-4070f846844d")
+		(property "Reference" "C34"
+			(at 190.5 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 190.5 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 185.7248 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 186.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 186.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 186.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 186.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
+			(at 186.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
+			(at 186.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 186.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c3a60ce-0e20-48a5-85d1-266b28a27d0c")
+		)
+		(pin "2"
+			(uuid "9371f6b8-0f96-4abb-8dd3-5bb2f2d7eaf8")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 186.69 247.65 0)
+		(at 198.12 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17331,7 +17591,7 @@
 		(fields_autoplaced yes)
 		(uuid "7edcfa5a-246f-437b-96e9-4c312ec84552")
 		(property "Reference" "#PWR056"
-			(at 186.69 254 0)
+			(at 198.12 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17340,7 +17600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 252.73 0)
+			(at 198.12 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17348,7 +17608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 247.65 0)
+			(at 198.12 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17357,7 +17617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 247.65 0)
+			(at 198.12 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17366,7 +17626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 247.65 0)
+			(at 198.12 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17547,17 +17807,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 443.23 227.33 180)
+		(lib_id "Device:C")
+		(at 452.12 231.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84c4ac05-66ad-40d7-9031-73acd940ba11")
-		(property "Reference" "#PWR013"
-			(at 443.23 220.98 0)
+		(uuid "84ca8326-9f00-4821-8707-c17dbf9f4cf1")
+		(property "Reference" "C37"
+			(at 455.93 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 455.93 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 451.1548 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17565,16 +17842,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 443.23 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 227.33 0)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 452.12 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,8 +17851,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 443.23 227.33 0)
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 452.12 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17591,8 +17860,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 227.33 0)
+		(property "Manufacturer" "Samsung"
+			(at 452.12 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 452.12 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
+			(at 452.12 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
+			(at 452.12 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 452.12 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17601,12 +17906,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dca96583-6bed-4d8c-b5c4-c03acd4feb03")
+			(uuid "8af69c23-9fe5-4404-a331-2f03a41a0b9a")
+		)
+		(pin "2"
+			(uuid "91bec36f-b466-4f76-a081-5410ddff3462")
 		)
 		(instances
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
-					(reference "#PWR013")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -18415,7 +18723,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 452.12 246.38 180)
+		(at 458.47 246.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18424,7 +18732,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dc96c93-85c0-4daa-a060-40a101578276")
 		(property "Reference" "R19"
-			(at 454.66 245.1099 0)
+			(at 461.01 245.1099 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -18433,7 +18741,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 454.66 247.6499 0)
+			(at 461.01 247.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18442,7 +18750,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 452.12 246.38 0)
+			(at 458.47 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18451,7 +18759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 452.12 246.38 0)
+			(at 458.47 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18460,7 +18768,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 452.12 246.38 0)
+			(at 458.47 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19330,7 +19638,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 237.49 0)
+		(at 208.28 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19339,7 +19647,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae8cfaa9-380c-4058-8970-85fd58c87d37")
 		(property "Reference" "C33"
-			(at 200.66 236.2199 0)
+			(at 212.09 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19348,7 +19656,7 @@
 			)
 		)
 		(property "Value" "120p"
-			(at 200.66 238.7599 0)
+			(at 212.09 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19357,7 +19665,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 197.8152 241.3 0)
+			(at 209.2452 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19366,7 +19674,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
-			(at 196.85 237.49 0)
+			(at 208.28 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19375,7 +19683,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 196.85 237.49 0)
+			(at 208.28 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19384,7 +19692,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 196.85 237.49 0)
+			(at 208.28 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19393,7 +19701,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 196.85 237.49 0)
+			(at 208.28 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19402,7 +19710,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
-			(at 196.85 237.49 0)
+			(at 208.28 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19411,7 +19719,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
-			(at 196.85 237.49 0)
+			(at 208.28 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19420,7 +19728,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 196.85 237.49 0)
+			(at 208.28 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19990,7 +20298,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 462.28 238.76 0)
+		(at 468.63 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19999,7 +20307,7 @@
 		(fields_autoplaced yes)
 		(uuid "b399623e-7a25-4154-b255-bc4effb7e3aa")
 		(property "Reference" "C10"
-			(at 466.09 237.4899 0)
+			(at 472.44 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20008,7 +20316,7 @@
 			)
 		)
 		(property "Value" "120p"
-			(at 466.09 240.0299 0)
+			(at 472.44 240.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20017,7 +20325,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 463.2452 242.57 0)
+			(at 469.5952 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20026,7 +20334,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
-			(at 462.28 238.76 0)
+			(at 468.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20035,7 +20343,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 462.28 238.76 0)
+			(at 468.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20044,7 +20352,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 462.28 238.76 0)
+			(at 468.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20053,7 +20361,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 462.28 238.76 0)
+			(at 468.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20062,7 +20370,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
-			(at 462.28 238.76 0)
+			(at 468.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20071,7 +20379,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
-			(at 462.28 238.76 0)
+			(at 468.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20080,7 +20388,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 462.28 238.76 0)
+			(at 468.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21312,7 +21620,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 186.69 245.11 180)
+		(at 198.12 245.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21321,7 +21629,7 @@
 		(fields_autoplaced yes)
 		(uuid "c62a01ef-d1d0-43b0-b226-056d3f598cae")
 		(property "Reference" "R8"
-			(at 189.23 243.8399 0)
+			(at 200.66 243.8399 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -21330,7 +21638,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 189.23 246.3799 0)
+			(at 200.66 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21339,7 +21647,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.69 245.11 0)
+			(at 198.12 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21348,7 +21656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 245.11 0)
+			(at 198.12 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21357,7 +21665,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 186.69 245.11 0)
+			(at 198.12 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21375,6 +21683,72 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 448.31 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6b63c77-5333-491e-84f5-1034ece6f83b")
+		(property "Reference" "#PWR064"
+			(at 448.31 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 448.31 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 448.31 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b5066e-cf8c-4435-a6e9-59489cccb89f")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -22106,7 +22480,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 452.12 248.92 0)
+		(at 458.47 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22115,7 +22489,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2102dba-e937-4232-9062-325b33f9784b")
 		(property "Reference" "#PWR016"
-			(at 452.12 255.27 0)
+			(at 458.47 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22124,7 +22498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 452.12 254 0)
+			(at 458.47 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22132,7 +22506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 452.12 248.92 0)
+			(at 458.47 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22141,7 +22515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 452.12 248.92 0)
+			(at 458.47 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22150,7 +22524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 452.12 248.92 0)
+			(at 458.47 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22165,6 +22539,120 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 229.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2a4b27e-4e32-45e1-b31c-7a78c99429ae")
+		(property "Reference" "C35"
+			(at 198.12 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 198.12 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 193.3448 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 194.31 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 194.31 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 194.31 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 194.31 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
+			(at 194.31 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
+			(at 194.31 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 194.31 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f52ff12-ee16-4141-9af7-a3604ace84a7")
+		)
+		(pin "2"
+			(uuid "feef7f23-3440-4289-8859-c387ab1f86a3")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -22531,7 +23019,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 186.69 236.22 180)
+		(at 198.12 236.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22540,7 +23028,7 @@
 		(fields_autoplaced yes)
 		(uuid "db245614-e87b-460b-8324-07cbefbfa87f")
 		(property "Reference" "R7"
-			(at 189.23 234.9499 0)
+			(at 200.66 234.9499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -22549,7 +23037,7 @@
 			)
 		)
 		(property "Value" "450k"
-			(at 189.23 237.4899 0)
+			(at 200.66 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22558,7 +23046,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.69 236.22 0)
+			(at 198.12 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22567,7 +23055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 236.22 0)
+			(at 198.12 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22576,7 +23064,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 186.69 236.22 0)
+			(at 198.12 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22693,7 +23181,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 452.12 237.49 180)
+		(at 458.47 237.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22702,7 +23190,7 @@
 		(fields_autoplaced yes)
 		(uuid "de4dd990-9231-45a3-a2ba-79158ecdece4")
 		(property "Reference" "R18"
-			(at 454.66 236.2199 0)
+			(at 461.01 236.2199 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -22711,7 +23199,7 @@
 			)
 		)
 		(property "Value" "450k"
-			(at 454.66 238.7599 0)
+			(at 461.01 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22720,7 +23208,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 452.12 237.49 0)
+			(at 458.47 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22729,7 +23217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 452.12 237.49 0)
+			(at 458.47 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22738,7 +23226,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 452.12 237.49 0)
+			(at 458.47 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23692,6 +24180,234 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 448.31 231.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebd27941-7077-4571-b38d-74997e0ff768")
+		(property "Reference" "C36"
+			(at 452.12 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 452.12 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 447.3448 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 448.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 448.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 448.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 448.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
+			(at 448.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
+			(at 448.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 448.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ada11db8-b3bd-4102-b9b3-ccefd44fe785")
+		)
+		(pin "2"
+			(uuid "3451cf19-404a-4562-99af-02a8cdf7382c")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 443.23 231.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebf13b73-5af4-42fd-bfb6-fc916ec3566e")
+		(property "Reference" "C7"
+			(at 447.04 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 447.04 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 442.2648 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 443.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 443.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 443.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 443.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
+			(at 443.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
+			(at 443.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 443.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fccd1ce-d831-43af-a0f2-e65532cb2626")
+		)
+		(pin "2"
+			(uuid "03b05c92-eb88-4281-9ee7-dc0bc8b4f88a")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Temperature:MAX31855KASA")
 		(at 78.74 176.53 0)
 		(unit 1)
@@ -24412,6 +25128,72 @@
 			(project "Altaris_MCU"
 				(path "/21889916-6808-460c-a148-21d1f170ea7e"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f91c47d7-3f2a-4299-b61b-13251d78dc62")
+		(property "Reference" "#PWR060"
+			(at 194.31 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84cee71b-3787-4678-a0b1-27406e1303a0")
+		)
+		(instances
+			(project "Altaris_MCU"
+				(path "/21889916-6808-460c-a148-21d1f170ea7e"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
